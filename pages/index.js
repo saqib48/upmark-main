@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import Home from './home';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
-import "../app/globals.css"
+import "../app/globals.css";
 
 function Index() {
   useEffect(() => {

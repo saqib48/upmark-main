@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Logo from '../atoms/Logo';
 import Container from '../atoms/Container';
 import Link from 'next/link';
+import "../../app/globals.css";
 
 function Header() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
