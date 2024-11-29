@@ -5,15 +5,16 @@ import Heading from '../atoms/Heading';
 import Image from 'next/image';
 import 'animate.css/animate.min.css';
 import 'animate.css';
+import "../../app/globals.css";
 
 const Banner = () => {
   return (
     <div
       className="banner h-auto py-6 bg-cover bg-center"
       style={{
-        background: "linear-gradient(135deg, #00988E, #10958A, #46C2B8, #008080)",
+        background: "linear-gradient(90deg, #006988EE, #10958A, #46C2B8, #008080)",
         backgroundSize: "300% 300%",
-        animation: "gradientShift 5s ease infinite",
+        animation: "gradientShift 3s ease infinite",
       }}
     >
       <Container>

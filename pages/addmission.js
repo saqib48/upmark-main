@@ -1,14 +1,13 @@
 import Header from '@/components/organisms/Header'
 import React from 'react'
-import "../app/globals.css";
 
-function blog() {
+function addmission() {
   return (
-    <div className=''>
+    <div>
       <Header/>
-      Blog
+      Addmission
     </div>
   )
 }
 
-export default blog
+export default addmission

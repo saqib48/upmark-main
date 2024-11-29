@@ -27,16 +27,16 @@ function Header() {
             <li><Link href="/">Home</Link></li>
             <li><Link href="/accommodation">Find Your Accommodation</Link></li>
             <li className="relative" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
-              <Link href="">Admissions / Placements</Link>
+              <Link href="/addmission">Admissions / Placements</Link>
               {isDropdownOpen && (
                 <ul className="absolute border rounded shadow-lg w-36 bg-white z-999">
-                  <Link href="#"><li className='my-1 py-1 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>UK</li></Link>
-                  <Link href="#"><li className='my-1 py-1 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>Australia</li></Link>
-                  <Link href="#"><li className='my-1 py-1 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>USA</li></Link>
-                  <Link href="#"><li className='my-1 py-1 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>Canada</li></Link>
-                  <Link href="#"><li className='my-1 py-1 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>Germany</li></Link>
-                  <Link href="#"><li className='my-1 py-1 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>Malaysia</li></Link>
-                  <Link href="#"><li className='my-1 py-1 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>Dubai</li></Link>
+                  <Link href="/addmission/#1"><li className='my-1 py-1 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>UK</li></Link>
+                  <Link href="/addmission/#2"><li className='my-1 py-1 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>Australia</li></Link>
+                  <Link href="/addmission/#3"><li className='my-1 py-1 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>USA</li></Link>
+                  <Link href="/addmission/#4"><li className='my-1 py-1 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>Canada</li></Link>
+                  <Link href="/addmission/#5"><li className='my-1 py-1 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>Germany</li></Link>
+                  <Link href="/addmission/#6"><li className='my-1 py-1 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>Malaysia</li></Link>
+                  <Link href="/addmission/#7"><li className='my-1 py-1 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>Dubai</li></Link>
                 </ul>
               )}
             </li>
@@ -67,16 +67,16 @@ function Header() {
           <li><Link href="/">Home</Link></li>
           <li><Link href="/accommodation">Find Your Accommodation</Link></li>
           <li className="relative">
-            <Link href="#" onClick={toggleDropdown}>Admissions / Placements</Link>
+            <Link href="addmission" onClick={toggleDropdown}>Admissions / Placements</Link>
             {isDropdownOpen && (
               <ul className="pl-4">
-                <Link href="#"><li className='py-2 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>UK</li></Link>
-                <Link href="#"><li className='py-2 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>Australia</li></Link>
-                <Link href="#"><li className='py-2 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>USA</li></Link>
-                <Link href="#"><li className='py-2 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>Canada</li></Link>
-                <Link href="#"><li className='py-2 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>Germany</li></Link>
-                <Link href="#"><li className='py-2 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>Malaysia</li></Link>
-                <Link href="#"><li className='py-2 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>Dubai</li></Link>
+                <Link href="/addmission/#1"><li className='py-2 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>UK</li></Link>
+                <Link href="/addmission/#2"><li className='py-2 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>Australia</li></Link>
+                <Link href="/addmission/#3"><li className='py-2 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>USA</li></Link>
+                <Link href="/addmission/#4"><li className='py-2 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>Canada</li></Link>
+                <Link href="/addmission/#5"><li className='py-2 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>Germany</li></Link>
+                <Link href="/addmission/#6"><li className='py-2 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>Malaysia</li></Link>
+                <Link href="/addmission/#7"><li className='py-2 pl-2 mx-2 rounded hover:bg-[#00918E] hover:text-white hover:cursor-pointer'>Dubai</li></Link>
               </ul>
             )}
           </li>
